@@ -1,7 +1,7 @@
 
 // © 2025 KyuuRzy. All Rights Reserved.
 // respect the work, don’t just copy-paste.
-
+ 
 const chalk = require("chalk")
 
 module.exports = {
