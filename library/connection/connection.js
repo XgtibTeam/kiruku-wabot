@@ -5,7 +5,7 @@
 const chalk = require("chalk")
 
 module.exports = {
-    konek: async ({ sock, update, sockstart, DisconnectReason, Boom }) => {
+    konek: async ({ sock, update, clientstart, DisconnectReason, Boom }) => {
         const { connection, lastDisconnect } = update;
         if (connection === 'close') {
             let reason = new Boom(lastDisconnect?.error)?.output.statusCode;
