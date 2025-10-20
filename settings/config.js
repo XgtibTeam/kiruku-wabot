@@ -5,8 +5,8 @@
 const fs = require('fs')
 
 const config = {
-    owner: "-",
-    botNumber: "-",
+    owner: "6285182389210",
+    botNumber: "6285654120472",
     setPair: "12345678",
     thumbUrl: "https://github.com/kiuur.png",
     session: "sessions",
